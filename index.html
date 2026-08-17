@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Herbalix — Medicina Tradicional &amp; Cosmética Natural</title>
+<meta name="description" content="Herbalix: cosmética natural, aromaterapia, medicina tradicional, esotérica y suplementos. Un herbolario integral para tu bienestar.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="navbar navbar-expand-lg fixed-top hbx-nav" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand hbx-brand" href="#inicio">
+      <i class="bi bi-flower1"></i>
+      <span>Herbalix</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catálogo</a>
+          <ul class="dropdown-menu hbx-dropdown">
+            <li><a class="dropdown-item" href="#cosmetica"><i class="bi bi-droplet"></i> Cosmética natural</a></li>
+            <li><a class="dropdown-item" href="#aromaterapia"><i class="bi bi-flower2"></i> Aromaterapia</a></li>
+            <li><a class="dropdown-item" href="#medicina"><i class="bi bi-capsule"></i> Medicina tradicional</a></li>
+            <li><a class="dropdown-item" href="#esoterica"><i class="bi bi-moon-stars"></i> Esotérica</a></li>
+            <li><a class="dropdown-item" href="#insumos"><i class="bi bi-box-seam"></i> Insumos</a></li>
+            <li><a class="dropdown-item" href="#suplementos"><i class="bi bi-heart-pulse"></i> Suplementos</a></li>
+            <li><a class="dropdown-item" href="#mascotas"><i class="bi bi-paw"></i> Mascotas</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn hbx-btn-accent btn-sm" href="#contacto">
+            <i class="bi bi-basket2"></i> Consultar productos
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hbx-hero" id="inicio">
+  <div class="hbx-hero-texture" aria-hidden="true"></div>
+  <div class="container hbx-hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6" data-reveal>
+        <span class="hbx-eyebrow"><i class="bi bi-leaf"></i> Herbolario &amp; centro de bienestar</span>
+        <h1 class="hbx-hero-title">La sabiduría de la planta,<br> el cuidado de lo natural.</h1>
+        <p class="hbx-hero-text">
+          En Herbalix combinamos medicina tradicional, cosmética natural y terapias ancestrales
+          en un mismo espacio. Cada producto nace de la planta, se elabora a mano y se piensa
+          para tu bienestar real.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#cosmetica" class="btn hbx-btn-accent btn-lg">
+            <i class="bi bi-basket2"></i> Ver catálogo
+          </a>
+          <a href="#servicios" class="btn hbx-btn-outline btn-lg">
+            <i class="bi bi-hand-index-thumb"></i> Ver servicios
+          </a>
+        </div>
+        <div class="hbx-trustbar mt-5">
+          <div><i class="bi bi-flower3"></i><span>100% natural</span></div>
+          <div><i class="bi bi-award"></i><span>Elaboración artesanal</span></div>
+          <div><i class="bi bi-people"></i><span>Recetas ancestrales</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-reveal data-reveal-delay="1">
+        <div class="hbx-hero-visual">
+          <div class="hbx-hero-card hbx-card-1">
+            <i class="bi bi-droplet-half"></i>
+            <p>Cosmética<br>natural</p>
+          </div>
+          <div class="hbx-hero-card hbx-card-2">
+            <i class="bi bi-capsule"></i>
+            <p>Medicina<br>tradicional</p>
+          </div>
+          <div class="hbx-hero-card hbx-card-3">
+            <i class="bi bi-flower2"></i>
+            <p>Aromaterapia</p>
+          </div>
+          <svg class="hbx-hero-leaf" viewBox="0 0 200 200" aria-hidden="true">
+            <path d="M100 10 C 40 40, 20 110, 60 170 C 80 190, 120 190, 140 170 C 180 110, 160 40, 100 10 Z" />
+            <path d="M100 15 C 100 60, 100 120, 100 175" class="hbx-leaf-vein"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg class="hbx-hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,64 C240,10 480,10 720,40 C960,70 1200,70 1440,30 L1440,90 L0,90 Z"></path>
+  </svg>
+</header>
+
+<!-- ============ NOSOTROS ============ -->
+<section class="hbx-section" id="nosotros">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-5" data-reveal>
+      <div class="col-lg-7">
+        <span class="hbx-tag">Nosotros</span>
+        <h2 class="hbx-h2">Un herbolario pensado como un botiquín completo</h2>
+        <p class="hbx-lead">
+          Herbalix nace de la unión entre la herbolaria tradicional y la cosmética consciente.
+          Trabajamos con plantas, resinas y aceites seleccionados para acompañarte en cada
+          etapa de tu bienestar físico, energético y emocional.
+        </p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" data-reveal>
+        <div class="hbx-pillar">
+          <div class="hbx-pillar-icon"><i class="bi bi-flower1"></i></div>
+          <h3>Origen natural</h3>
+          <p>Materia prima botánica, sin ingredientes agresivos ni procesos industriales invasivos.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-reveal data-reveal-delay="1">
+        <div class="hbx-pillar">
+          <div class="hbx-pillar-icon"><i class="bi bi-journal-bookmark"></i></div>
+          <h3>Saber ancestral</h3>
+          <p>Fórmulas heredadas de la medicina tradicional, adaptadas con criterios actuales de calidad.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-reveal data-reveal-delay="2">
+        <div class="hbx-pillar">
+          <div class="hbx-pillar-icon"><i class="bi bi-heart"></i></div>
+          <h3>Cuidado integral</h3>
+          <p>Del cuerpo a la energía: productos, terapias y suplementos en un mismo lugar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATEGORY SECTIONS (rendered by JS) ============ -->
+<main id="catalogo"></main>
+
+<!-- ============ SERVICIOS ============ -->
+<section class="hbx-section hbx-section-dark" id="servicios">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-5" data-reveal>
+      <div class="col-lg-7">
+        <span class="hbx-tag hbx-tag-light">Servicios</span>
+        <h2 class="hbx-h2 hbx-h2-light">Terapias para el cuerpo y la energía</h2>
+        <p class="hbx-lead hbx-lead-light">
+          Espacios breves de bienestar dentro de tu día, y tratamientos personalizados
+          con medicina tradicional para procesos más profundos.
+        </p>
+      </div>
+    </div>
+    <div id="servicesGrid" class="row g-4"></div>
+  </div>
+</section>
+
+<!-- ============ CTA / NEWSLETTER ============ -->
+<section class="hbx-cta">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7" data-reveal>
+        <h2 class="hbx-h2-cta">¿Buscás algo puntual?</h2>
+        <p class="mb-0">Escribinos y armamos tu botiquín herbolario a medida, o resolvemos tu consulta sobre cualquier producto del catálogo.</p>
+      </div>
+      <div class="col-lg-5 text-lg-end" data-reveal data-reveal-delay="1">
+        <a href="#contacto" class="btn hbx-btn-accent btn-lg"><i class="bi bi-chat-dots"></i> Hablar con Herbalix</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="hbx-section" id="contacto">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5" data-reveal>
+        <span class="hbx-tag">Contacto</span>
+        <h2 class="hbx-h2">Visitanos o escribinos</h2>
+        <p class="hbx-lead">Contanos qué necesitás y te asesoramos sobre el producto o servicio ideal para vos.</p>
+
+        <ul class="hbx-contact-list">
+          <li><i class="bi bi-geo-alt"></i><div><strong>Dirección</strong><span>Av. Herbolario 245, La Paz, Bolivia</span></div></li>
+          <li><i class="bi bi-clock"></i><div><strong>Horario</strong><span>Lun a Sáb · 9:00 – 19:00</span></div></li>
+          <li><i class="bi bi-telephone"></i><div><strong>Teléfono</strong><span>+591 700 00 000</span></div></li>
+          <li><i class="bi bi-envelope"></i><div><strong>Email</strong><span>hola@herbalix.com</span></div></li>
+        </ul>
+
+        <div class="hbx-social">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-7" data-reveal data-reveal-delay="1">
+        <form class="hbx-form" id="contactForm" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+              <div class="invalid-feedback">Contanos tu nombre.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" class="form-control" id="email" required>
+              <div class="invalid-feedback">Ingresá un email válido.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="interes">Me interesa</label>
+              <select class="form-select" id="interes">
+                <option selected>Elegí una categoría</option>
+                <option>Cosmética natural</option>
+                <option>Aromaterapia</option>
+                <option>Medicina tradicional</option>
+                <option>Esotérica</option>
+                <option>Suplementos</option>
+                <option>Servicios / terapias</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+              <div class="invalid-feedback">Escribinos tu consulta.</div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn hbx-btn-accent btn-lg w-100 w-md-auto">
+                <i class="bi bi-send"></i> Enviar consulta
+              </button>
+              <p class="hbx-form-success mt-3 d-none" id="formSuccess">
+                <i class="bi bi-check-circle"></i> ¡Gracias! Recibimos tu mensaje y te contactaremos a la brevedad.
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="hbx-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a class="hbx-brand hbx-brand-footer" href="#inicio"><i class="bi bi-flower1"></i><span>Herbalix</span></a>
+        <p class="mt-3">Medicina tradicional, cosmética natural y terapias de bienestar, elaboradas con respeto por la planta y por vos.</p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>Catálogo</h6>
+        <ul>
+          <li><a href="#cosmetica">Cosmética</a></li>
+          <li><a href="#aromaterapia">Aromaterapia</a></li>
+          <li><a href="#medicina">Medicina tradicional</a></li>
+          <li><a href="#esoterica">Esotérica</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6>Más</h6>
+        <ul>
+          <li><a href="#insumos">Insumos</a></li>
+          <li><a href="#suplementos">Suplementos</a></li>
+          <li><a href="#mascotas">Mascotas</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6>Boletín botánico</h6>
+        <p>Recibí novedades, tips de uso y lanzamientos de temporada.</p>
+        <form class="hbx-newsletter" id="newsletterForm">
+          <input type="email" placeholder="tu@email.com" required aria-label="Email para boletín">
+          <button type="submit"><i class="bi bi-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <span>© <span id="year"></span> Herbalix. Todos los derechos reservados.</span>
+      <span class="hbx-footer-note">Elaborado a mano, cultivado con intención.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" class="hbx-back-top" aria-label="Volver arriba"><i class="bi bi-arrow-up"></i></button>
+
+<!-- WhatsApp float -->
+<a href="#" class="hbx-whatsapp" aria-label="Escribinos por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
