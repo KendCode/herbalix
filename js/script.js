@@ -11,7 +11,9 @@
      Cada categoría se numera como una entrada de ledger
      de herbolario (Nº de archivo botánico).
   --------------------------------------------------- */
+
   const CATALOG = [
+
     {
       id: "cosmetica",
       number: "Archivo N.º 01",
@@ -19,13 +21,43 @@
       title: "Cosmética natural",
       desc: "Rutinas de cuidado formuladas con activos botánicos, libres de ingredientes agresivos.",
       products: [
-        { name: "Shampoo natural", desc: "Limpieza suave a base de extractos herbales, sin sulfatos agresivos.", icon: "bi-droplet-half" },
-        { name: "Bálsamos labiales", desc: "Hidratación profunda con manteca vegetal y aceites esenciales.", icon: "bi-flower3", badge: "Favorito" },
-        { name: "Crema de sebo de res \u201CPhthalo\u201D", desc: "Fórmula nutritiva tradicional para piel muy seca.", icon: "bi-egg-fried" },
-        { name: "Jabones terapéuticos", desc: "Barras artesanales con plantas medicinales según necesidad de piel.", icon: "bi-droplet" },
-        { name: "Lash Serum", desc: "Sérum botánico para crecimiento de pestañas y cejas.", icon: "bi-magic", badge: "Nuevo" }
+
+        {
+          name: "Shampoo NNnatural",
+          desc: "Limpieza suave a base de extractos herbales, sin sulfatos agresivos.",
+          image: "../assets/img/CosmeticaNatural/shampoo.jpg"
+        },
+
+        {
+          name: "Bálsamos labiales",
+          desc: "Hidratación profunda con manteca vegetal y aceites esenciales.",
+          image: "assets/img/productos/balsamos-labiales.jpg",
+          badge: "Favorito"
+        },
+
+        {
+          name: "Crema de sebo de res “Phthalo”",
+          desc: "Fórmula nutritiva tradicional para piel muy seca.",
+          image: "assets/img/productos/crema-sebo-phthalo.jpg"
+        },
+
+        {
+          name: "Jabones terapéuticos",
+          desc: "Barras artesanales con plantas medicinales según necesidad de piel.",
+          image: "assets/img/productos/jabones-terapeuticos.jpg"
+        },
+
+        {
+          name: "Lash Serum",
+          desc: "Sérum botánico para crecimiento de pestañas y cejas.",
+          image: "assets/img/productos/lash-serum.jpg",
+          badge: "Nuevo"
+        }
+
       ]
     },
+
+
     {
       id: "aromaterapia",
       number: "Archivo N.º 02",
@@ -33,17 +65,65 @@
       title: "Aromaterapia",
       desc: "Aromas botánicos para equilibrar cuerpo y espacio, en distintos formatos.",
       products: [
-        { name: "Perfume botánico 50 ml", desc: "Fragancia natural de mayor duración, formato de uso diario.", icon: "bi-droplet-fill" },
-        { name: "Perfume botánico 15 ml", desc: "Formato intermedio, ideal para llevar contigo.", icon: "bi-droplet" },
-        { name: "Perfume botánico 10 ml", desc: "Formato compacto para descubrir tu esencia favorita.", icon: "bi-droplet-half" },
-        { name: "Velas aromáticas decorativas", desc: "Piezas artesanales que combinan diseño y aromaterapia.", icon: "bi-fire" },
-        { name: "Velas perfumadas", desc: "Cera natural con aceites esenciales para ambientar cualquier espacio.", icon: "bi-fire" },
-        { name: "Difusores de aroma", desc: "Difusión constante de aceites esenciales para el hogar.", icon: "bi-wind" },
-        { name: "Aceites esenciales", desc: "Extractos puros para difusión, masajes o uso terapéutico.", icon: "bi-droplet-fill" },
-        { name: "Colgante aromatizador", desc: "Accesorio personal que libera aroma botánico durante el día.", icon: "bi-gem" },
-        { name: "Difusor de ambiente con palillos", desc: "Aromatización pasiva y continua en frasco de vidrio.", icon: "bi-flower2" }
+
+        {
+          name: "Perfume botánico 50 ml",
+          desc: "Fragancia natural de mayor duración, formato de uso diario.",
+          image: "../assets/img/CosmeticaNatural/shampoo.jpg"
+        },
+
+        {
+          name: "Perfume botánico 15 ml",
+          desc: "Formato intermedio, ideal para llevar contigo.",
+          image: "assets/img/productos/perfume-botanico-15ml.jpg"
+        },
+
+        {
+          name: "Perfume botánico 10 ml",
+          desc: "Formato compacto para descubrir tu esencia favorita.",
+          image: "assets/img/productos/perfume-botanico-10ml.jpg"
+        },
+
+        {
+          name: "Velas aromáticas decorativas",
+          desc: "Piezas artesanales que combinan diseño y aromaterapia.",
+          image: "assets/img/productos/velas-aromaticas-decorativas.jpg"
+        },
+
+        {
+          name: "Velas perfumadas",
+          desc: "Cera natural con aceites esenciales para ambientar cualquier espacio.",
+          image: "assets/img/productos/velas-perfumadas.jpg"
+        },
+
+        {
+          name: "Difusores de aroma",
+          desc: "Difusión constante de aceites esenciales para el hogar.",
+          image: "assets/img/productos/difusores-aroma.jpg"
+        },
+
+        {
+          name: "Aceites esenciales",
+          desc: "Extractos puros para difusión, masajes o uso terapéutico.",
+          image: "assets/img/productos/aceites-esenciales.jpg"
+        },
+
+        {
+          name: "Colgante aromatizador",
+          desc: "Accesorio personal que libera aroma botánico durante el día.",
+          image: "assets/img/productos/colgante-aromatizador.jpg"
+        },
+
+        {
+          name: "Difusor de ambiente con palillos",
+          desc: "Aromatización pasiva y continua en frasco de vidrio.",
+          image: "assets/img/productos/difusor-palillos.jpg"
+        }
+
       ]
     },
+
+
     {
       id: "medicina",
       number: "Archivo N.º 03",
@@ -51,21 +131,89 @@
       title: "Medicina tradicional",
       desc: "El corazón de Herbalix: fórmulas herbolarias para dolencias cotidianas y bienestar profundo.",
       products: [
-        { name: "Jarabes herbales", desc: "Preparados naturales para malestares respiratorios comunes.", icon: "bi-droplet-fill" },
-        { name: "Pomada analgésica", desc: "Alivio tópico para dolores musculares y articulares.", icon: "bi-bandaid" },
-        { name: "Pomada expectorante", desc: "Uso en pecho y espalda para despejar vías respiratorias.", icon: "bi-wind" },
-        { name: "Pomada relajante", desc: "Formulada con plantas calmantes para tensión y estrés físico.", icon: "bi-moon-stars" },
-        { name: "Blend herbal para infusiones", desc: "Mezcla de plantas seleccionadas según propiedad terapéutica.", icon: "bi-cup-hot" },
-        { name: "Tintura hidroalcohólica", desc: "Concentrado herbal 70% alcohol / 30% agua, alta potencia.", icon: "bi-droplet" },
-        { name: "Sales de baño para pies", desc: "Alivio de pesadez y dolores musculares al final del día.", icon: "bi-water" },
-        { name: "Bombas efervescentes de baño", desc: "Ritual relajante con aceites esenciales y sales minerales.", icon: "bi-stars" },
-        { name: "Miel con propóleo, limón y jengibre", desc: "Combinado natural para defensas y bienestar general.", icon: "bi-flower1" },
-        { name: "Propóleo puro", desc: "Resina de abeja con propiedades antibacterianas naturales.", icon: "bi-hexagon" },
-        { name: "Miel pura", desc: "Miel 100% natural, sin procesos industriales.", icon: "bi-droplet-half" },
-        { name: "Cigarrillos herbales", desc: "Mezcla de hierbas libres de tabaco y nicotina.", icon: "bi-fire" },
-        { name: "Botiquín herbolario", desc: "Selección esencial de remedios naturales para el hogar.", icon: "bi-briefcase" }
+
+        {
+          name: "Jarabes herbales",
+          desc: "Preparados naturales para malestares respiratorios comunes.",
+          image: "assets/img/productos/jarabes-herbales.jpg"
+        },
+
+        {
+          name: "Pomada analgésica",
+          desc: "Alivio tópico para dolores musculares y articulares.",
+          image: "assets/img/productos/pomada-analgesica.jpg"
+        },
+
+        {
+          name: "Pomada expectorante",
+          desc: "Uso en pecho y espalda para despejar vías respiratorias.",
+          image: "assets/img/productos/pomada-expectorante.jpg"
+        },
+
+        {
+          name: "Pomada relajante",
+          desc: "Formulada con plantas calmantes para tensión y estrés físico.",
+          image: "assets/img/productos/pomada-relajante.jpg"
+        },
+
+        {
+          name: "Blend herbal para infusiones",
+          desc: "Mezcla de plantas seleccionadas según propiedad terapéutica.",
+          image: "assets/img/productos/blend-herbal.jpg"
+        },
+
+        {
+          name: "Tintura hidroalcohólica",
+          desc: "Concentrado herbal 70% alcohol / 30% agua, alta potencia.",
+          image: "assets/img/productos/tintura-hidroalcoholica.jpg"
+        },
+
+        {
+          name: "Sales de baño para pies",
+          desc: "Alivio de pesadez y dolores musculares al final del día.",
+          image: "assets/img/productos/sales-bano-pies.jpg"
+        },
+
+        {
+          name: "Bombas efervescentes de baño",
+          desc: "Ritual relajante con aceites esenciales y sales minerales.",
+          image: "assets/img/productos/bombas-efervescentes.jpg"
+        },
+
+        {
+          name: "Miel con propóleo, limón y jengibre",
+          desc: "Combinado natural para defensas y bienestar general.",
+          image: "assets/img/productos/miel-propoleo-limon-jengibre.jpg"
+        },
+
+        {
+          name: "Propóleo puro",
+          desc: "Resina de abeja con propiedades antibacterianas naturales.",
+          image: "assets/img/productos/propoleo-puro.jpg"
+        },
+
+        {
+          name: "Miel pura",
+          desc: "Miel 100% natural, sin procesos industriales.",
+          image: "assets/img/productos/miel-pura.jpg"
+        },
+
+        {
+          name: "Cigarrillos herbales",
+          desc: "Mezcla de hierbas libres de tabaco y nicotina.",
+          image: "assets/img/productos/cigarrillos-herbales.jpg"
+        },
+
+        {
+          name: "Botiquín herbolario",
+          desc: "Selección esencial de remedios naturales para el hogar.",
+          image: "assets/img/productos/botiquin-herbolario.jpg"
+        }
+
       ]
     },
+
+
     {
       id: "esoterica",
       number: "Archivo N.º 04",
@@ -73,13 +221,41 @@
       title: "Esotérica",
       desc: "Elementos rituales y energéticos que acompañan tu práctica espiritual.",
       products: [
-        { name: "Inciensos", desc: "Variedad de aromas para limpieza energética y meditación.", icon: "bi-fire" },
-        { name: "Jabones rituales", desc: "Barras artesanales asociadas a intenciones específicas.", icon: "bi-droplet" },
-        { name: "Bombitas de defumación", desc: "Preparados listos para sahumar espacios rápidamente.", icon: "bi-cloud" },
-        { name: "Amuletos", desc: "Piezas simbólicas para protección y buena energía.", icon: "bi-gem" },
-        { name: "Agua Florida", desc: "Loción tradicional utilizada en rituales de limpieza energética.", icon: "bi-droplet-half" }
+
+        {
+          name: "Inciensos",
+          desc: "Variedad de aromas para limpieza energética y meditación.",
+          image: "assets/img/productos/inciensos.jpg"
+        },
+
+        {
+          name: "Jabones rituales",
+          desc: "Barras artesanales asociadas a intenciones específicas.",
+          image: "assets/img/productos/jabones-rituales.jpg"
+        },
+
+        {
+          name: "Bombitas de defumación",
+          desc: "Preparados listos para sahumar espacios rápidamente.",
+          image: "assets/img/productos/bombitas-defumacion.jpg"
+        },
+
+        {
+          name: "Amuletos",
+          desc: "Piezas simbólicas para protección y buena energía.",
+          image: "assets/img/productos/amuletos.jpg"
+        },
+
+        {
+          name: "Agua Florida",
+          desc: "Loción tradicional utilizada en rituales de limpieza energética.",
+          image: "assets/img/productos/agua-florida.jpg"
+        }
+
       ]
     },
+
+
     {
       id: "insumos",
       number: "Archivo N.º 05",
@@ -87,12 +263,35 @@
       title: "Insumos",
       desc: "Materia prima para quienes elaboran sus propios productos naturales.",
       products: [
-        { name: "Glicerina vegetal", desc: "Base humectante para jabonería y cosmética artesanal.", icon: "bi-droplet-fill" },
-        { name: "Cera de miel", desc: "Cera natural de abeja para bálsamos, velas y cosmética.", icon: "bi-hexagon" },
-        { name: "Esencias botánicas", desc: "Concentrados aromáticos para perfumería y jabonería.", icon: "bi-eyedropper" },
-        { name: "Insumos para shampoo", desc: "Base e ingredientes para elaboración artesanal de shampoo.", icon: "bi-box2" }
+
+        {
+          name: "Glicerina vegetal",
+          desc: "Base humectante para jabonería y cosmética artesanal.",
+          image: "assets/img/productos/glicerina-vegetal.jpg"
+        },
+
+        {
+          name: "Cera de miel",
+          desc: "Cera natural de abeja para bálsamos, velas y cosmética.",
+          image: "assets/img/productos/cera-miel.jpg"
+        },
+
+        {
+          name: "Esencias botánicas",
+          desc: "Concentrados aromáticos para perfumería y jabonería.",
+          image: "assets/img/productos/esencias-botanicas.jpg"
+        },
+
+        {
+          name: "Insumos para shampoo",
+          desc: "Base e ingredientes para elaboración artesanal de shampoo.",
+          image: "assets/img/productos/insumos-shampoo.jpg"
+        }
+
       ]
     },
+
+
     {
       id: "suplementos",
       number: "Archivo N.º 06",
@@ -100,14 +299,47 @@
       title: "Suplementos dietarios y terapéuticos",
       desc: "Apoyo nutricional natural para complementar tu rutina de bienestar.",
       products: [
-        { name: "Colágeno", desc: "Soporte para piel, articulaciones y tejido conectivo.", icon: "bi-capsule" },
-        { name: "Citrato de magnesio", desc: "Mineral esencial para energía y función muscular.", icon: "bi-capsule-pill" },
-        { name: "Maca", desc: "Raíz andina energizante, tradicionalmente usada para vitalidad.", icon: "bi-flower3" },
-        { name: "Omega 3", desc: "Ácidos grasos esenciales para salud cardiovascular.", icon: "bi-droplet-fill" },
-        { name: "Aceite de coco", desc: "Uso interno y externo; propiedades antifúngicas naturales.", icon: "bi-droplet" },
-        { name: "Aceite de orégano", desc: "Apoyo natural frente a hongos y molestias intestinales.", icon: "bi-droplet-half" }
+
+        {
+          name: "Colágeno",
+          desc: "Soporte para piel, articulaciones y tejido conectivo.",
+          image: "assets/img/productos/colageno.jpg"
+        },
+
+        {
+          name: "Citrato de magnesio",
+          desc: "Mineral esencial para energía y función muscular.",
+          image: "assets/img/productos/citrato-magnesio.jpg"
+        },
+
+        {
+          name: "Maca",
+          desc: "Raíz andina energizante, tradicionalmente usada para vitalidad.",
+          image: "assets/img/productos/maca.jpg"
+        },
+
+        {
+          name: "Omega 3",
+          desc: "Ácidos grasos esenciales para salud cardiovascular.",
+          image: "assets/img/productos/omega-3.jpg"
+        },
+
+        {
+          name: "Aceite de coco",
+          desc: "Uso interno y externo; propiedades antifúngicas naturales.",
+          image: "assets/img/productos/aceite-coco.jpg"
+        },
+
+        {
+          name: "Aceite de orégano",
+          desc: "Apoyo natural frente a hongos y molestias intestinales.",
+          image: "assets/img/productos/aceite-oregano.jpg"
+        }
+
       ]
     },
+
+
     {
       id: "mascotas",
       number: "Archivo N.º 07",
@@ -115,22 +347,90 @@
       title: "Línea para mascotas",
       desc: "Cuidado natural también para los miembros peludos de la familia.",
       products: [
-        { name: "Jabones para mascotas", desc: "Limpieza suave con ingredientes naturales aptos para su piel.", icon: "bi-droplet" },
-        { name: "Bálsamo para patitas", desc: "Protección e hidratación para almohadillas resecas o agrietadas.", icon: "bi-paw" }
+
+        {
+          name: "Jabones para mascotas",
+          desc: "Limpieza suave con ingredientes naturales aptos para su piel.",
+          image: "assets/img/productos/jabones-mascotas.jpg"
+        },
+
+        {
+          name: "Bálsamo para patitas",
+          desc: "Protección e hidratación para almohadillas resecas o agrietadas.",
+          image: "assets/img/productos/balsamo-patitas.jpg"
+        }
+
       ]
     }
+
   ];
 
+
   const SERVICES = [
-    { name: "Masoterapia express · Cuerpo entero", desc: "Sesión breve de 5 minutos para liberar tensión general.", icon: "bi-stopwatch", time: "5 min" },
-    { name: "Masoterapia express · Pies", desc: "Alivio rápido y focalizado para pies cansados.", icon: "bi-stopwatch", time: "5 min" },
-    { name: "Reflexología", desc: "Estimulación de puntos reflejos para equilibrar el organismo.", icon: "bi-hand-index-thumb", time: "A convenir" },
-    { name: "Masajes antiestrés", desc: "Técnicas relajantes para reducir tensión física y mental.", icon: "bi-emoji-smile", time: "30–60 min" },
-    { name: "Masajes capilares", desc: "Estimulación del cuero cabelludo para salud del cabello.", icon: "bi-brush", time: "20 min" },
-    { name: "Sueroterapia", desc: "Hidratación y aporte de nutrientes vía intravenosa supervisada.", icon: "bi-droplet", time: "A convenir" },
-    { name: "Desintoxicación iónica", desc: "Terapia de pies para favorecer procesos de desintoxicación.", icon: "bi-lightning-charge", time: "30 min" },
-    { name: "Escáner cuántico", desc: "Evaluación bioenergética no invasiva del estado general.", icon: "bi-cpu", time: "20 min" },
-    { name: "Tratamientos personalizados", desc: "Planes con medicina tradicional adaptados a tu proceso.", icon: "bi-clipboard2-pulse", time: "A convenir" }
+
+    {
+      name: "Masoterapia express · Cuerpo entero",
+      desc: "Sesión breve de 5 minutos para liberar tensión general.",
+      icon: "bi-stopwatch",
+      time: "5 min"
+    },
+
+    {
+      name: "Masoterapia express · Pies",
+      desc: "Alivio rápido y focalizado para pies cansados.",
+      icon: "bi-stopwatch",
+      time: "5 min"
+    },
+
+    {
+      name: "Reflexología",
+      desc: "Estimulación de puntos reflejos para equilibrar el organismo.",
+      icon: "bi-hand-index-thumb",
+      time: "A convenir"
+    },
+
+    {
+      name: "Masajes antiestrés",
+      desc: "Técnicas relajantes para reducir tensión física y mental.",
+      icon: "bi-emoji-smile",
+      time: "30–60 min"
+    },
+
+    {
+      name: "Masajes capilares",
+      desc: "Estimulación del cuero cabelludo para salud del cabello.",
+      icon: "bi-brush",
+      time: "20 min"
+    },
+
+    {
+      name: "Sueroterapia",
+      desc: "Hidratación y aporte de nutrientes vía intravenosa supervisada.",
+      icon: "bi-droplet",
+      time: "A convenir"
+    },
+
+    {
+      name: "Desintoxicación iónica",
+      desc: "Terapia de pies para favorecer procesos de desintoxicación.",
+      icon: "bi-lightning-charge",
+      time: "30 min"
+    },
+
+    {
+      name: "Escáner cuántico",
+      desc: "Evaluación bioenergética no invasiva del estado general.",
+      icon: "bi-cpu",
+      time: "20 min"
+    },
+
+    {
+      name: "Tratamientos personalizados",
+      desc: "Planes con medicina tradicional adaptados a tu proceso.",
+      icon: "bi-clipboard2-pulse",
+      time: "A convenir"
+    }
+
   ];
 
   /* ---------------------------------------------------
@@ -147,23 +447,40 @@
         const code = "Nº " + String(globalIndex).padStart(3, "0");
         const badge = p.badge ? `<span class="hbx-product-badge">${p.badge}</span>` : "";
         return `
-          <div class="col-sm-6 col-lg-4 col-xl-3" data-reveal>
-            <article class="hbx-product-card" data-name="${p.name.toLowerCase()}">
-              <div class="hbx-product-visual" style="background: linear-gradient(135deg, var(--hbx-primary), var(--hbx-primary-70));">
-                <span class="hbx-product-index">${code}</span>
-                ${badge}
-                <i class="bi ${p.icon}"></i>
-              </div>
-              <div class="hbx-product-body">
-                <h4>${p.name}</h4>
-                <p>${p.desc}</p>
-                <div class="hbx-product-foot">
-                  <span>${cat.title}</span>
-                  <i class="bi bi-arrow-up-right-circle"></i>
-                </div>
-              </div>
-            </article>
-          </div>`;
+  <div class="col-sm-6 col-lg-4 col-xl-3" data-reveal>
+    <article class="hbx-product-card" data-name="${p.name.toLowerCase()}">
+
+      <div class="hbx-product-visual">
+
+        <span class="hbx-product-index">${code}</span>
+
+        ${badge}
+
+        <img
+          src="${p.image}"
+          alt="${p.name}"
+          class="hbx-product-image"
+          loading="lazy"
+        >
+
+      </div>
+
+      <div class="hbx-product-body">
+
+        <h4>${p.name}</h4>
+
+        <p>${p.desc}</p>
+
+        <div class="hbx-product-foot">
+          <span>${cat.title}</span>
+          <i class="bi bi-arrow-up-right-circle"></i>
+        </div>
+
+      </div>
+
+    </article>
+  </div>`;
+
       }).join("");
 
       return `
@@ -268,7 +585,7 @@
   function initWhatsapp() {
     const link = document.querySelector(".hbx-whatsapp");
     if (!link) return;
-    const phone = "59170000000";
+    const phone = "59171265932";
     const message = encodeURIComponent("Hola Herbalix, me gustaría más información sobre sus productos.");
     link.href = `https://wa.me/${phone}?text=${message}`;
     link.target = "_blank";
