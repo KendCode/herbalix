@@ -372,64 +372,73 @@
       name: "Masoterapia express · Cuerpo entero",
       desc: "Sesión breve de 5 minutos para liberar tensión general.",
       icon: "bi-stopwatch",
-      time: "5 min"
+      time: "5 min",
+      image: "assets/img/Servicios/MasoterapiaCuerpoEntero.jpg"
     },
 
     {
       name: "Masoterapia express · Pies",
       desc: "Alivio rápido y focalizado para pies cansados.",
       icon: "bi-stopwatch",
-      time: "5 min"
+      time: "5 min",
+      image: "assets/img/Servicios/MasoterapiaPies.jpg"
     },
 
     {
       name: "Reflexología",
       desc: "Estimulación de puntos reflejos para equilibrar el organismo.",
       icon: "bi-hand-index-thumb",
-      time: "A convenir"
+      time: "A convenir",
+      image: "assets/img/Servicios/Reflexiologia.jpeg"
     },
 
     {
       name: "Masajes antiestrés",
       desc: "Técnicas relajantes para reducir tensión física y mental.",
       icon: "bi-emoji-smile",
-      time: "30–60 min"
+      time: "30–60 min",
+      image: "assets/img/Servicios/MasajesAntiestres.jpg"
     },
 
     {
       name: "Masajes capilares",
       desc: "Estimulación del cuero cabelludo para salud del cabello.",
       icon: "bi-brush",
-      time: "20 min"
+      time: "20 min",
+      image: "assets/img/Servicios/MasajesCapilares.jpeg"
     },
 
     {
       name: "Sueroterapia",
       desc: "Hidratación y aporte de nutrientes vía intravenosa supervisada.",
       icon: "bi-droplet",
-      time: "A convenir"
+      time: "A convenir",
+      image: "assets/img/Servicios/Sueroterapia.jpg"
     },
 
     {
       name: "Desintoxicación iónica",
       desc: "Terapia de pies para favorecer procesos de desintoxicación.",
       icon: "bi-lightning-charge",
-      time: "30 min"
+      time: "30 min",
+      image: "assets/img/Servicios/DesintoxicacionIonica.jpeg"
     },
 
     {
       name: "Escáner cuántico",
       desc: "Evaluación bioenergética no invasiva del estado general.",
       icon: "bi-cpu",
-      time: "20 min"
+      time: "20 min",
+      image: "assets/img/Servicios/EscanerCuantico.jpg"
     },
 
-    {
+    /*{
       name: "Tratamientos personalizados",
       desc: "Planes con medicina tradicional adaptados a tu proceso.",
       icon: "bi-clipboard2-pulse",
-      time: "A convenir"
-    }
+      time: "A convenir",
+      image: "assets/img/servicios/tratamientos-personalizados.jpg"
+    }*/
 
   ];
 
@@ -447,7 +456,7 @@
         const code = "Nº " + String(globalIndex).padStart(3, "0");
         const badge = p.badge ? `<span class="hbx-product-badge">${p.badge}</span>` : "";
         return `
-  <div class="col-sm-6 col-lg-4 col-xl-3" data-reveal>
+  <div class="col-6 col-sm-4 col-lg-4 col-xl-3" data-reveal>
     <article class="hbx-product-card" data-name="${p.name.toLowerCase()}">
 
       <div class="hbx-product-visual">
@@ -493,7 +502,7 @@
                 <p class="hbx-category-desc">${cat.desc}</p>
               </div>
             </div>
-            <div class="row g-4">${cards}</div>
+            <div class="row g-3 g-md-4">${cards}</div>
           </div>
         </section>`;
     }).join("");
@@ -509,15 +518,44 @@
     if (!grid) return;
 
     grid.innerHTML = SERVICES.map((s) => `
-      <div class="col-sm-6 col-lg-4" data-reveal>
-        <div class="hbx-service-card">
-          <div class="hbx-service-icon"><i class="bi ${s.icon}"></i></div>
-          <h4>${s.name}</h4>
-          <p>${s.desc}</p>
-          <span class="hbx-service-time"><i class="bi bi-clock-history"></i> ${s.time}</span>
+    <div class="col-6 col-lg-4" data-reveal>
+
+      <article class="hbx-service-card">
+
+        <div class="hbx-service-visual">
+
+          ${s.image
+        ? `<img
+                  src="${s.image}"
+                  alt="${s.name}"
+                  class="hbx-service-image"
+                  loading="lazy"
+                >`
+        : `<div class="hbx-service-icon">
+                  <i class="bi ${s.icon}"></i>
+                </div>`
+      }
+
+
         </div>
-      </div>
-    `).join("");
+
+        <div class="hbx-service-body">
+
+          <h4>${s.name}</h4>
+
+          <p>${s.desc}</p>
+
+          <div class="hbx-service-foot">
+            <span>Servicio Herbalix</span>
+            <i class="bi bi-arrow-up-right-circle"></i>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+  `).join("");
   }
 
   /* ---------------------------------------------------

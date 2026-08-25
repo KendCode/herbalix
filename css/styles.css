@@ -1,20 +1,23 @@
 /* =====================================================
    HERBALIX — Design tokens
+   Paleta "Botica Andina": aubergine profundo + oro antiguo
+   sobre avena cálido. Pensada para diferenciarse del
+   verde-salvia/terracota usado antes.
    ===================================================== */
 :root{
-  --hbx-bg:            #FAF9F6;
-  --hbx-bg-alt:        #F3F0E9;
-  --hbx-primary:       #2C4A3E;
-  --hbx-primary-70:    #4C6B5D;
-  --hbx-primary-40:    #8CA599;
-  --hbx-primary-15:    #E1E7E3;
-  --hbx-accent:        #C86D51;
-  --hbx-accent-dark:   #A6543C;
-  --hbx-accent-15:     #F5E3DC;
-  --hbx-card:          #EFECE6;
-  --hbx-card-deep:     #E4DFD5;
-  --hbx-text:          #2B2B2B;
-  --hbx-text-muted:    #6B6B62;
+  --hbx-bg:            #F7F1E1;
+  --hbx-bg-alt:        #EFE4C9;
+  --hbx-primary:       #4B2E39;
+  --hbx-primary-70:    #6E4C58;
+  --hbx-primary-40:    #A98A93;
+  --hbx-primary-15:    #E7DBDD;
+  --hbx-accent:        #C89B3C;
+  --hbx-accent-dark:   #A67D28;
+  --hbx-accent-15:     #F3E4BE;
+  --hbx-card:          #EFE3C7;
+  --hbx-card-deep:     #E4D5AE;
+  --hbx-text:          #2B2320;
+  --hbx-text-muted:    #6E6053;
 
   --font-display: "Fraunces", "Georgia", serif;
   --font-body: "Karla", "Segoe UI", sans-serif;
@@ -22,8 +25,8 @@
   --radius-lg: 22px;
   --radius-md: 14px;
   --radius-sm: 8px;
-  --shadow-soft: 0 20px 40px -24px rgba(44,74,62,0.35);
-  --shadow-card: 0 12px 30px -18px rgba(44,74,62,0.28);
+  --shadow-soft: 0 20px 40px -24px rgba(75,46,57,0.35);
+  --shadow-card: 0 12px 30px -18px rgba(75,46,57,0.28);
 }
 
 *{ box-sizing: border-box; }
@@ -80,7 +83,7 @@ a{ text-decoration: none; color: inherit; }
    NAVBAR
    ===================================================== */
 .hbx-nav{
-  background: rgba(250,249,246,0.86);
+  background: rgba(247,241,225,0.86);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
@@ -88,10 +91,10 @@ a{ text-decoration: none; color: inherit; }
   padding: 1.1rem 0;
 }
 .hbx-nav.scrolled{
-  background: rgba(250,249,246,0.97);
+  background: rgba(247,241,225,0.97);
   border-bottom-color: var(--hbx-primary-15);
   padding: .6rem 0;
-  box-shadow: 0 8px 24px -18px rgba(44,74,62,0.4);
+  box-shadow: 0 8px 24px -18px rgba(75,46,57,0.4);
 }
 .hbx-brand{
   display: inline-flex; align-items: center; gap: .55rem;
@@ -146,7 +149,7 @@ a{ text-decoration: none; color: inherit; }
   background: var(--hbx-accent-dark);
   border-color: var(--hbx-accent-dark);
   transform: translateY(-2px);
-  box-shadow: 0 14px 26px -14px rgba(168,84,60,0.55);
+  box-shadow: 0 14px 26px -14px rgba(166,125,40,0.55);
 }
 .hbx-btn-outline{
   background: transparent;
@@ -170,13 +173,13 @@ a{ text-decoration: none; color: inherit; }
 .hbx-hero{
   position: relative;
   padding: 9.5rem 0 6rem;
-  background: linear-gradient(180deg, #F2EEE6 0%, var(--hbx-bg) 65%);
+  background: linear-gradient(180deg, #F1E7CD 0%, var(--hbx-bg) 65%);
   overflow: hidden;
 }
 .hbx-hero-texture{
   position:absolute; inset:0; pointer-events:none;
-  background-image: radial-gradient(circle at 85% 15%, rgba(200,109,81,0.10), transparent 45%),
-                     radial-gradient(circle at 8% 85%, rgba(44,74,62,0.08), transparent 50%);
+  background-image: radial-gradient(circle at 85% 15%, rgba(200,155,60,0.12), transparent 45%),
+                     radial-gradient(circle at 8% 85%, rgba(75,46,57,0.10), transparent 50%);
 }
 .hbx-hero-inner{ position: relative; z-index: 2; }
 
@@ -222,7 +225,7 @@ a{ text-decoration: none; color: inherit; }
 .hbx-hero-logo-wrap::before{
   content:"";
   position:absolute; inset: -10%;
-  background: radial-gradient(circle, rgba(250,249,246,0.95) 0%, rgba(250,249,246,0.55) 45%, rgba(250,249,246,0) 72%);
+  background: radial-gradient(circle, rgba(247,241,225,0.95) 0%, rgba(247,241,225,0.55) 45%, rgba(247,241,225,0) 72%);
   border-radius: 50%;
   z-index: 0;
 }
@@ -251,7 +254,7 @@ a{ text-decoration: none; color: inherit; }
   width: 64%;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 18px 30px rgba(44,74,62,0.28));
+  filter: drop-shadow(0 18px 30px rgba(75,46,57,0.28));
   animation: hbxLogoFloat 7s ease-in-out infinite;
 }
 @keyframes hbxLogoFloat{
@@ -286,7 +289,7 @@ a{ text-decoration: none; color: inherit; }
   background: var(--hbx-primary); color:#fff;
   animation-delay: 1.2s;
 }
-.hbx-card-2 i{ color: #E9C4B5; }
+.hbx-card-2 i{ color: #E8C97A; }
 .hbx-card-2 p{ color: #fff; }
 
 @keyframes hbxFloat{
@@ -316,7 +319,7 @@ a{ text-decoration: none; color: inherit; }
 .hbx-section-alt{ background: var(--hbx-bg-alt); }
 .hbx-section-dark{
   background: var(--hbx-primary);
-  color: #EDEAE2;
+  color: #EDE3D5;
 }
 .hbx-tag{
   display:inline-block;
@@ -326,11 +329,11 @@ a{ text-decoration: none; color: inherit; }
   padding: .35rem .9rem; border-radius: 999px;
   margin-bottom: 1rem;
 }
-.hbx-tag-light{ background: rgba(255,255,255,0.12); color: #F1CBB9; }
+.hbx-tag-light{ background: rgba(255,255,255,0.12); color: #F0DBA0; }
 .hbx-h2{ font-size: clamp(1.7rem, 3vw, 2.4rem); margin-bottom: 1rem; }
-.hbx-h2-light{ color: #FBF7F2; }
+.hbx-h2-light{ color: #FBF6EC; }
 .hbx-lead{ color: var(--hbx-text-muted); font-size: 1.08rem; }
-.hbx-lead-light{ color: #C9D6CE; }
+.hbx-lead-light{ color: #D8C9B8; }
 
 .hbx-pillar{
   background: var(--hbx-card);
@@ -393,11 +396,22 @@ a{ text-decoration: none; color: inherit; }
   box-shadow: var(--shadow-card);
   border-color: var(--hbx-primary-15);
 }
+
+/* Visual (imagen) del producto: alto consistente, sin deformar la foto */
 .hbx-product-visual{
   position: relative;
-  aspect-ratio: 4/3;
-  display:flex; align-items:center; justify-content:center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
+  display:flex; align-items:center; justify-content:center;
+}
+.hbx-product-visual::before{
+  content:"";
+  position:absolute; inset:0; z-index: 1;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.16), transparent 45%),
+    radial-gradient(circle at 85% 90%, rgba(0,0,0,0.12), transparent 55%);
+  pointer-events: none;
 }
 .hbx-product-visual i{
   font-size: 2.6rem;
@@ -405,28 +419,28 @@ a{ text-decoration: none; color: inherit; }
   position: relative; z-index: 2;
   filter: drop-shadow(0 6px 10px rgba(0,0,0,0.15));
 }
-.hbx-product-visual::before{
-  content:"";
-  position:absolute; inset:0;
-  background-image:
-    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.16), transparent 45%),
-    radial-gradient(circle at 85% 90%, rgba(0,0,0,0.12), transparent 55%);
+.hbx-product-image{
+  position: absolute; inset: 0; z-index: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;      /* recorta y rellena sin deformar */
+  object-position: center;
+  display: block;
 }
 .hbx-product-index{
-  position:absolute; top: .7rem; left: .7rem; z-index:3;
+  position:absolute; top: .55rem; left: .55rem; z-index:3;
   font-family: var(--font-display);
-  font-size: .72rem; font-weight: 700;
-  background: rgba(255,255,255,0.85);
+  font-size: .68rem; font-weight: 700;
+  background: rgba(247,241,225,0.88);
   color: var(--hbx-primary);
-  padding: .18rem .55rem;
+  padding: .16rem .5rem;
   border-radius: 999px;
   letter-spacing: .03em;
 }
 .hbx-product-badge{
-  position:absolute; top:.7rem; right:.7rem; z-index:3;
-  font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em;
+  position:absolute; top:.55rem; right:.55rem; z-index:3;
+  font-size: .62rem; font-weight: 800; text-transform: uppercase; letter-spacing: .04em;
   background: var(--hbx-accent);
-  color:#fff; padding: .22rem .55rem; border-radius: 999px;
+  color:#fff; padding: .2rem .5rem; border-radius: 999px;
 }
 .hbx-product-body{
   padding: 1.15rem 1.2rem 1.3rem;
@@ -464,32 +478,205 @@ a{ text-decoration: none; color: inherit; }
 /* =====================================================
    SERVICES (dark section)
    ===================================================== */
+/* =====================================================
+   SERVICES — CARDS CON IMAGEN
+   ===================================================== */
+
 .hbx-section-dark .hbx-service-card{
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--hbx-card);
+  border: 1px solid transparent;
   border-radius: var(--radius-lg);
-  padding: 1.9rem 1.6rem;
+  overflow: hidden;
   height: 100%;
-  transition: all .3s ease;
-}
-.hbx-section-dark .hbx-service-card:hover{
-  background: rgba(255,255,255,0.1);
-  transform: translateY(-6px);
-}
-.hbx-service-icon{
-  width: 52px; height:52px; border-radius: 50%;
-  background: var(--hbx-accent);
-  display:flex; align-items:center; justify-content:center;
-  font-size: 1.35rem; color:#fff; margin-bottom: 1.1rem;
-}
-.hbx-service-card h4{ color:#fff; font-size: 1.08rem; margin-bottom:.45rem; }
-.hbx-service-card p{ color: #C9D6CE; font-size: .89rem; margin:0; }
-.hbx-service-time{
-  display:inline-flex; align-items:center; gap:.35rem;
-  margin-top: .9rem; font-size: .76rem; font-weight:700;
-  color: #F1CBB9;
+  display: flex;
+  flex-direction: column;
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
 }
 
+.hbx-section-dark .hbx-service-card:hover{
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--hbx-accent);
+}
+
+
+/* Imagen */
+
+.hbx-service-visual{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--hbx-primary);
+}
+
+.hbx-service-image{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  transition: transform .5s ease;
+}
+
+.hbx-service-card:hover .hbx-service-image{
+  transform: scale(1.06);
+}
+
+
+/* Degradado sobre la imagen */
+
+.hbx-service-visual::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(43,35,32,.55),
+    transparent 55%
+  );
+  pointer-events: none;
+}
+
+
+/* Ícono cuando no existe imagen */
+
+.hbx-service-icon{
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+
+  width: 58px;
+  height: 58px;
+  margin: auto;
+
+  border-radius: 50%;
+  background: var(--hbx-accent);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+/* Tiempo */
+
+.hbx-service-badge{
+  position: absolute;
+  z-index: 3;
+  left: .75rem;
+  bottom: .75rem;
+
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+
+  background: rgba(75,46,57,.92);
+  color: #fff;
+
+  padding: .35rem .65rem;
+  border-radius: 999px;
+
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+
+/* Contenido */
+
+.hbx-service-body{
+  padding: 1.25rem 1.3rem 1.35rem;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hbx-service-body h4{
+  color: var(--hbx-primary);
+  font-size: .92rem;
+  line-height: 1.2;
+  margin: 0 0 .4rem;
+}
+
+.hbx-service-body p{
+  color: var(--hbx-text-muted);
+  font-size: .75rem;
+  line-height: 1.35;
+  margin: 0;
+  flex: 1;
+}
+
+.hbx-service-foot{
+  font-size: .65rem;
+  margin-top: .7rem;
+}
+
+.hbx-service-foot i{
+  font-size: .9rem;
+}
+
+.hbx-service-badge{
+  font-size: .62rem;
+  padding: .25rem .5rem;
+}
+
+/* Pie de card */
+
+.hbx-service-foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 1rem;
+
+  font-size: .76rem;
+  font-weight: 700;
+  color: var(--hbx-primary-70);
+}
+
+.hbx-service-foot i{
+  color: var(--hbx-accent);
+  font-size: 1.1rem;
+}
+
+
+/* Responsive */
+
+@media (max-width: 575.98px){
+
+  .hbx-service-body{
+    padding: .8rem;
+  }
+
+  .hbx-service-body h4{
+    font-size: .82rem;
+    line-height: 1.2;
+  }
+
+  .hbx-service-body p{
+    font-size: .68rem;
+    line-height: 1.3;
+  }
+
+  .hbx-service-foot{
+    font-size: .58rem;
+    margin-top: .55rem;
+  }
+
+  .hbx-service-foot i{
+    font-size: .8rem;
+  }
+
+  .hbx-service-badge{
+    font-size: .58rem;
+    padding: .2rem .4rem;
+  }
+
+}
 /* =====================================================
    CTA BAND
    ===================================================== */
@@ -547,7 +734,7 @@ a{ text-decoration: none; color: inherit; }
 }
 .hbx-form .form-control:focus, .hbx-form .form-select:focus{
   border-color: var(--hbx-accent);
-  box-shadow: 0 0 0 .2rem rgba(200,109,81,0.15);
+  box-shadow: 0 0 0 .2rem rgba(200,155,60,0.15);
 }
 .hbx-form-success{ color: var(--hbx-primary); font-weight: 700; }
 
@@ -556,7 +743,7 @@ a{ text-decoration: none; color: inherit; }
    ===================================================== */
 .hbx-footer{
   background: var(--hbx-primary);
-  color: #C9D6CE;
+  color: #D8C9B8;
   padding: 4.5rem 0 2rem;
   font-size: .9rem;
 }
@@ -567,17 +754,17 @@ a{ text-decoration: none; color: inherit; }
   margin-bottom: 1rem;
 }
 .hbx-footer ul{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.6rem; }
-.hbx-footer ul a{ color: #C9D6CE; transition: color .2s ease; }
+.hbx-footer ul a{ color: #D8C9B8; transition: color .2s ease; }
 .hbx-footer ul a:hover{ color: var(--hbx-accent); }
 .hbx-footer hr{ border-color: rgba(255,255,255,0.15); margin: 2.5rem 0 1.5rem; }
-.hbx-footer-note{ font-style: italic; color: #9FB3A7; }
+.hbx-footer-note{ font-style: italic; color: #B3A08C; }
 
 .hbx-newsletter{ display:flex; gap:.5rem; max-width: 340px; }
 .hbx-newsletter input{
   flex:1; border-radius: 999px; border: none;
   padding: .6rem 1rem; background: rgba(255,255,255,0.1); color:#fff;
 }
-.hbx-newsletter input::placeholder{ color: #9FB3A7; }
+.hbx-newsletter input::placeholder{ color: #B3A08C; }
 .hbx-newsletter button{
   width: 42px; height: 42px; border-radius:50%; border:none;
   background: var(--hbx-accent); color:#fff; flex:none;
@@ -632,29 +819,41 @@ a{ text-decoration: none; color: inherit; }
   .hbx-hero-card p{ font-size: .78rem; }
   .hbx-category-head{ flex-direction: column; align-items:flex-start; }
 }
+
+/* Tarjetas de producto en celular: 2 columnas de base (ver script.js,
+   col-6), compactas pero con foto, título y descripción visibles. */
+@media (max-width: 767.98px){
+  .hbx-product-visual{ aspect-ratio: 1 / 1; }
+  .hbx-product-index{
+    font-size: .58rem; padding: .12rem .4rem;
+  }
+  .hbx-product-badge{
+    font-size: .55rem; padding: .16rem .4rem;
+  }
+  .hbx-product-body{
+    padding: .8rem .85rem 1rem;
+    gap: .25rem;
+  }
+  .hbx-product-body h4{ font-size: .88rem; line-height: 1.25; }
+  .hbx-product-body p{
+    font-size: .76rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .hbx-product-foot{
+    font-size: .68rem;
+    margin-top: .4rem;
+  }
+  .hbx-product-foot span{
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+}
+
 @media (max-width: 575.98px){
   .hbx-section{ padding: 4rem 0; }
   .hbx-form{ padding: 1.6rem; }
   .hbx-hero-visual{ display:none; }
-}
-
-
-
-.hbx-product-visual {
-  position: relative;
-  width: 100%;
-  height: 220px;        /* fija una altura consistente para todas las tarjetas */
-  overflow: hidden;      /* recorta lo que sobra de la imagen */
-  border-radius: 12px;   /* opcional, según tu diseño */
-}
-
-.hbx-product-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;     /* clave: recorta y rellena sin deformar */
-  object-position: center;
-  display: block;
 }
