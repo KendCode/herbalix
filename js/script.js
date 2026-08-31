@@ -23,9 +23,9 @@
       products: [
 
         {
-          name: "Shampoo NNnatural",
+          name: "Shampoo natural",
           desc: "Limpieza suave a base de extractos herbales, sin sulfatos agresivos.",
-          image: "../assets/img/CosmeticaNatural/shampoo.jpg"
+          image: "../assets/img/CosmeticaNatural/Shampoo.png"
         },
 
         {
@@ -44,7 +44,7 @@
         {
           name: "Jabones terapéuticos",
           desc: "Barras artesanales con plantas medicinales según necesidad de piel.",
-          image: "assets/img/productos/jabones-terapeuticos.jpg"
+          image: "assets/img/CosmeticaNatural/Jabones.png"
         },
 
         {
