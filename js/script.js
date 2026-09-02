@@ -69,19 +69,19 @@
         {
           name: "Perfume botánico 50 ml",
           desc: "Fragancia natural de mayor duración, formato de uso diario.",
-          image: "../assets/img/CosmeticaNatural/shampoo.jpg"
+          image: "../assets/img/Aromaterapia/PerfumeBotanico50ml.jpeg"
         },
 
         {
           name: "Perfume botánico 15 ml",
           desc: "Formato intermedio, ideal para llevar contigo.",
-          image: "assets/img/productos/perfume-botanico-15ml.jpg"
+          image: "../assets/img/Aromaterapia/PerfumeBotanico15ml.jpg"
         },
 
         {
           name: "Perfume botánico 10 ml",
           desc: "Formato compacto para descubrir tu esencia favorita.",
-          image: "assets/img/productos/perfume-botanico-10ml.jpg"
+          image: "../assets/img/Aromaterapia/PerfumeBotanico10ml.jpeg"
         },
 
         {
