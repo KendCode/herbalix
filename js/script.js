@@ -351,13 +351,13 @@
         {
           name: "Jabones para mascotas",
           desc: "Limpieza suave con ingredientes naturales aptos para su piel.",
-          image: "assets/img/productos/jabones-mascotas.jpg"
+          image: "assets/img/Mascotas/jabones.jpeg"
         },
 
         {
           name: "Bálsamo para patitas",
           desc: "Protección e hidratación para almohadillas resecas o agrietadas.",
-          image: "assets/img/productos/balsamo-patitas.jpg"
+          image: "assets/img/Mascotas/balsamo.jpeg"
         }
 
       ]
