@@ -25,32 +25,32 @@
         {
           name: "Shampoo natural",
           desc: "Limpieza suave a base de extractos herbales, sin sulfatos agresivos.",
-          image: "../assets/img/CosmeticaNatural/Shampoo.png"
+          image: "../assets/img/CosmeticaNatural/Shampoo.jpeg"
         },
 
         {
           name: "Bálsamos labiales",
           desc: "Hidratación profunda con manteca vegetal y aceites esenciales.",
-          image: "assets/img/productos/balsamos-labiales.jpg",
+          image: "assets/img/CosmeticaNatural/Balsamos.jpeg",
           badge: "Favorito"
         },
 
-        {
+        /*{
           name: "Crema de sebo de res “Phthalo”",
           desc: "Fórmula nutritiva tradicional para piel muy seca.",
           image: "assets/img/productos/crema-sebo-phthalo.jpg"
-        },
+        },*/
 
         {
           name: "Jabones terapéuticos",
           desc: "Barras artesanales con plantas medicinales según necesidad de piel.",
-          image: "assets/img/CosmeticaNatural/Jabones.png"
+          image: "assets/img/CosmeticaNatural/Jabones.jpeg"
         },
 
         {
           name: "Lash Serum",
           desc: "Sérum botánico para crecimiento de pestañas y cejas.",
-          image: "assets/img/productos/lash-serum.jpg",
+          image: "assets/img/CosmeticaNatural/LashSerum.jpeg",
           badge: "Nuevo"
         }
 
@@ -75,10 +75,10 @@
         {
           name: "Perfume botánico 15 ml",
           desc: "Formato intermedio, ideal para llevar contigo.",
-          image: "../assets/img/Aromaterapia/PerfumeBotanico15ml.jpg"
+          image: "../assets/img/Aromaterapia/PerfumeBotanico15ml.jpeg"
         },
 
-        {
+        /*{
           name: "Perfume botánico 10 ml",
           desc: "Formato compacto para descubrir tu esencia favorita.",
           image: "../assets/img/Aromaterapia/PerfumeBotanico10ml.jpeg"
@@ -88,42 +88,42 @@
           name: "Velas aromáticas decorativas",
           desc: "Piezas artesanales que combinan diseño y aromaterapia.",
           image: "assets/img/productos/velas-aromaticas-decorativas.jpg"
-        },
+        },*/
 
         {
           name: "Velas perfumadas",
           desc: "Cera natural con aceites esenciales para ambientar cualquier espacio.",
-          image: "assets/img/productos/velas-perfumadas.jpg"
+          image: "assets/img/Aromaterapia/velasPerfumadas.jpeg"
         },
 
-        {
+        /*{
           name: "Difusores de aroma",
           desc: "Difusión constante de aceites esenciales para el hogar.",
           image: "assets/img/productos/difusores-aroma.jpg"
-        },
+        },*/
 
         {
           name: "Aceites esenciales",
           desc: "Extractos puros para difusión, masajes o uso terapéutico.",
-          image: "assets/img/productos/aceites-esenciales.jpg"
+          image: "assets/img/Aromaterapia/aceites.jpeg"
         },
 
         {
           name: "Colgante aromatizador",
           desc: "Accesorio personal que libera aroma botánico durante el día.",
-          image: "assets/img/productos/colgante-aromatizador.jpg"
+          image: "assets/img/Aromaterapia/ColganteAromatizador.jpeg"
         },
 
         {
           name: "Difusor de ambiente con palillos",
           desc: "Aromatización pasiva y continua en frasco de vidrio.",
-          image: "assets/img/productos/difusor-palillos.jpg"
+          image: "assets/img/Aromaterapia/DifusorPalillos.jpeg"
         }
 
       ]
     },
 
-
+/*MEDICINA TRADICIONAL */
     {
       id: "medicina",
       number: "Archivo N.º 03",
@@ -135,79 +135,79 @@
         {
           name: "Jarabes herbales",
           desc: "Preparados naturales para malestares respiratorios comunes.",
-          image: "assets/img/productos/jarabes-herbales.jpg"
+          image: "assets/img/MedicinaTradicional/jarabes-herbales.jpg"
         },
 
         {
-          name: "Pomada analgésica",
+          name: "Pomada analgésica, expectorante, relajante",
           desc: "Alivio tópico para dolores musculares y articulares.",
-          image: "assets/img/productos/pomada-analgesica.jpg"
+          image: "assets/img/MedicinaTradicional/pomada-analgesica.jpg"
         },
 
-        {
+        /*{
           name: "Pomada expectorante",
           desc: "Uso en pecho y espalda para despejar vías respiratorias.",
-          image: "assets/img/productos/pomada-expectorante.jpg"
+          image: "assets/img/MedicinaTradicional/pomada-expectorante.jpg"
         },
 
         {
           name: "Pomada relajante",
           desc: "Formulada con plantas calmantes para tensión y estrés físico.",
-          image: "assets/img/productos/pomada-relajante.jpg"
-        },
+          image: "assets/img/MedicinaTradicional/pomada-relajante.jpg"
+        },*/
 
         {
           name: "Blend herbal para infusiones",
           desc: "Mezcla de plantas seleccionadas según propiedad terapéutica.",
-          image: "assets/img/productos/blend-herbal.jpg"
+          image: "assets/img/MedicinaTradicional/blendHerbal.jpeg"
         },
 
         {
           name: "Tintura hidroalcohólica",
           desc: "Concentrado herbal 70% alcohol / 30% agua, alta potencia.",
-          image: "assets/img/productos/tintura-hidroalcoholica.jpg"
+          image: "assets/img/MedicinaTradicional/Tintura.jpeg"
         },
 
         {
           name: "Sales de baño para pies",
           desc: "Alivio de pesadez y dolores musculares al final del día.",
-          image: "assets/img/productos/sales-bano-pies.jpg"
+          image: "assets/img/MedicinaTradicional/SalesPies.jpeg"
         },
 
         {
           name: "Bombas efervescentes de baño",
           desc: "Ritual relajante con aceites esenciales y sales minerales.",
-          image: "assets/img/productos/bombas-efervescentes.jpg"
+          image: "assets/img/MedicinaTradicional/bombas-efervescentes.jpg"
         },
 
         {
           name: "Miel con propóleo, limón y jengibre",
           desc: "Combinado natural para defensas y bienestar general.",
-          image: "assets/img/productos/miel-propoleo-limon-jengibre.jpg"
+          image: "assets/img/MedicinaTradicional/miel-propoleo-limon-jengibre.jpg"
         },
 
         {
           name: "Propóleo puro",
           desc: "Resina de abeja con propiedades antibacterianas naturales.",
-          image: "assets/img/productos/propoleo-puro.jpg"
+          image: "assets/img/MedicinaTradicional/propoleo-puro.jpg"
         },
 
         {
           name: "Miel pura",
           desc: "Miel 100% natural, sin procesos industriales.",
-          image: "assets/img/productos/miel-pura.jpg"
+          image: "assets/img/MedicinaTradicional/MielPura.jpeg"
         },
 
         {
           name: "Cigarrillos herbales",
           desc: "Mezcla de hierbas libres de tabaco y nicotina.",
-          image: "assets/img/productos/cigarrillos-herbales.jpg"
+          image: "assets/img/MedicinaTradicional/cigarrillos-herbales.jpg"
         },
 
         {
           name: "Botiquín herbolario",
           desc: "Selección esencial de remedios naturales para el hogar.",
-          image: "assets/img/productos/botiquin-herbolario.jpg"
+          image: "assets/img/MedicinaTradicional/botiquin-herbolario.jpg"
         }
 
       ]
@@ -225,14 +225,14 @@
         {
           name: "Inciensos",
           desc: "Variedad de aromas para limpieza energética y meditación.",
-          image: "assets/img/productos/inciensos.jpg"
+          image: "assets/img/Esoterica/Incienso.jpeg"
         },
 
-        {
+        /*{
           name: "Jabones rituales",
           desc: "Barras artesanales asociadas a intenciones específicas.",
           image: "assets/img/productos/jabones-rituales.jpg"
-        },
+        },*/
 
         {
           name: "Bombitas de defumación",
@@ -240,11 +240,11 @@
           image: "assets/img/productos/bombitas-defumacion.jpg"
         },
 
-        {
+        /*{
           name: "Amuletos",
           desc: "Piezas simbólicas para protección y buena energía.",
           image: "assets/img/productos/amuletos.jpg"
-        },
+        },*/
 
         {
           name: "Agua Florida",
@@ -267,13 +267,13 @@
         {
           name: "Glicerina vegetal",
           desc: "Base humectante para jabonería y cosmética artesanal.",
-          image: "assets/img/productos/glicerina-vegetal.jpg"
+          image: "assets/img/Insumos/glicerina.jpeg"
         },
 
         {
           name: "Cera de miel",
           desc: "Cera natural de abeja para bálsamos, velas y cosmética.",
-          image: "assets/img/productos/cera-miel.jpg"
+          image: "assets/img/Insumos/ceraMiel.jpeg"
         },
 
         {
@@ -303,37 +303,37 @@
         {
           name: "Colágeno",
           desc: "Soporte para piel, articulaciones y tejido conectivo.",
-          image: "assets/img/productos/colageno.jpg"
+          image: "assets/img/Suplementos/colageno.jpeg"
         },
 
         {
           name: "Citrato de magnesio",
           desc: "Mineral esencial para energía y función muscular.",
-          image: "assets/img/productos/citrato-magnesio.jpg"
+          image: "assets/img/Suplementos/citrato-magnesio.jpg"
         },
 
         {
           name: "Maca",
           desc: "Raíz andina energizante, tradicionalmente usada para vitalidad.",
-          image: "assets/img/productos/maca.jpg"
+          image: "assets/img/Suplementos/maca.jpg"
         },
 
         {
           name: "Omega 3",
           desc: "Ácidos grasos esenciales para salud cardiovascular.",
-          image: "assets/img/productos/omega-3.jpg"
+          image: "assets/img/Suplementos/omega-3.jpg"
         },
 
         {
           name: "Aceite de coco",
           desc: "Uso interno y externo; propiedades antifúngicas naturales.",
-          image: "assets/img/productos/aceite-coco.jpg"
+          image: "assets/img/Suplementos/aceite-coco.jpg"
         },
 
         {
           name: "Aceite de orégano",
           desc: "Apoyo natural frente a hongos y molestias intestinales.",
-          image: "assets/img/productos/aceite-oregano.jpg"
+          image: "assets/img/Suplementos/aceite-oregano.jpg"
         }
 
       ]
