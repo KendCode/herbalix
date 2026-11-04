@@ -78,29 +78,23 @@
           image: "../assets/img/Aromaterapia/PerfumeBotanico15ml.jpeg"
         },
 
-        /*{
+        {
           name: "Perfume botánico 10 ml",
           desc: "Formato compacto para descubrir tu esencia favorita.",
-          image: "../assets/img/Aromaterapia/PerfumeBotanico10ml.jpeg"
+          image: "../assets/img/Aromaterapia/PerfumeBotanico.jpeg"
         },
-
-        {
-          name: "Velas aromáticas decorativas",
-          desc: "Piezas artesanales que combinan diseño y aromaterapia.",
-          image: "assets/img/productos/velas-aromaticas-decorativas.jpg"
-        },*/
 
         {
           name: "Velas perfumadas",
           desc: "Cera natural con aceites esenciales para ambientar cualquier espacio.",
-          image: "assets/img/Aromaterapia/velasPerfumadas.jpeg"
+          image: "../assets/img/Aromaterapia/velasPerfumadas.jpeg"
         },
 
-        /*{
-          name: "Difusores de aroma",
+        {
+          name: "Mini Difusores de aroma",
           desc: "Difusión constante de aceites esenciales para el hogar.",
-          image: "assets/img/productos/difusores-aroma.jpg"
-        },*/
+          image: "assets/img/Aromaterapia/mini_difusor.jpeg"
+        },
 
         {
           name: "Aceites esenciales",
@@ -132,17 +126,17 @@
       desc: "El corazón de Herbalix: fórmulas herbolarias para dolencias cotidianas y bienestar profundo.",
       products: [
 
-        {
+        /*{
           name: "Jarabes herbales",
           desc: "Preparados naturales para malestares respiratorios comunes.",
           image: "assets/img/MedicinaTradicional/jarabes-herbales.jpg"
-        },
+        },*/
 
-        {
+        /*{
           name: "Pomada analgésica, expectorante, relajante",
           desc: "Alivio tópico para dolores musculares y articulares.",
           image: "assets/img/MedicinaTradicional/pomada-analgesica.jpg"
-        },
+        },*/
 
         /*{
           name: "Pomada expectorante",
@@ -161,6 +155,11 @@
           desc: "Mezcla de plantas seleccionadas según propiedad terapéutica.",
           image: "assets/img/MedicinaTradicional/blendHerbal.jpeg"
         },
+        {
+          name: "Blend herbal para infusiones",
+          desc: "Mezcla de plantas seleccionadas según propiedad terapéutica.",
+          image: "assets/img/MedicinaTradicional/hojas_mango_blend.jpeg"
+        },
 
         {
           name: "Tintura hidroalcohólica",
@@ -177,31 +176,36 @@
         {
           name: "Bombas efervescentes de baño",
           desc: "Ritual relajante con aceites esenciales y sales minerales.",
-          image: "assets/img/MedicinaTradicional/bombas-efervescentes.jpg"
+          image: "assets/img/MedicinaTradicional/vapores_bano.jpeg"
         },
 
         {
           name: "Miel con propóleo, limón y jengibre",
           desc: "Combinado natural para defensas y bienestar general.",
-          image: "assets/img/MedicinaTradicional/miel-propoleo-limon-jengibre.jpg"
+          image: "assets/img/MedicinaTradicional/miel_variedad.jpeg"
         },
 
-        {
+        /*{
           name: "Propóleo puro",
           desc: "Resina de abeja con propiedades antibacterianas naturales.",
           image: "assets/img/MedicinaTradicional/propoleo-puro.jpg"
-        },
+        },*/
 
         {
           name: "Miel pura",
           desc: "Miel 100% natural, sin procesos industriales.",
           image: "assets/img/MedicinaTradicional/MielPura.jpeg"
         },
+        {
+          name: "Miel pura caja",
+          desc: "Miel 100% natural, sin procesos industriales.",
+          image: "assets/img/MedicinaTradicional/miel_caja.jpeg"
+        },
 
         {
           name: "Cigarrillos herbales",
           desc: "Mezcla de hierbas libres de tabaco y nicotina.",
-          image: "assets/img/MedicinaTradicional/cigarrillos-herbales.jpg"
+          image: "assets/img/MedicinaTradicional/cigarrillos.jpeg"
         },
 
         {
@@ -213,7 +217,7 @@
       ]
     },
 
-
+/******* ESOTERICA */
     {
       id: "esoterica",
       number: "Archivo N.º 04",
@@ -237,7 +241,7 @@
         {
           name: "Bombitas de defumación",
           desc: "Preparados listos para sahumar espacios rápidamente.",
-          image: "assets/img/productos/bombitas-defumacion.jpg"
+          image: "assets/img/Esoterica/bombas_defumacion.jpeg"
         },
 
         /*{
@@ -246,11 +250,11 @@
           image: "assets/img/productos/amuletos.jpg"
         },*/
 
-        {
+        /*{
           name: "Agua Florida",
           desc: "Loción tradicional utilizada en rituales de limpieza energética.",
           image: "assets/img/productos/agua-florida.jpg"
-        }
+        }*/
 
       ]
     },
@@ -271,12 +275,12 @@
         },
 
         {
-          name: "Cera de miel",
-          desc: "Cera natural de abeja para bálsamos, velas y cosmética.",
-          image: "assets/img/Insumos/ceraMiel.jpeg"
+          name: "Cera de soya",
+          desc: "Cera natural de soya para bálsamos, velas y cosmética.",
+          image: "assets/img/Insumos/cera_soya.jpeg"
         },
 
-        {
+        /*{
           name: "Esencias botánicas",
           desc: "Concentrados aromáticos para perfumería y jabonería.",
           image: "assets/img/productos/esencias-botanicas.jpg"
@@ -286,7 +290,7 @@
           name: "Insumos para shampoo",
           desc: "Base e ingredientes para elaboración artesanal de shampoo.",
           image: "assets/img/productos/insumos-shampoo.jpg"
-        }
+        }*/
 
       ]
     },
@@ -309,32 +313,32 @@
         {
           name: "Citrato de magnesio",
           desc: "Mineral esencial para energía y función muscular.",
-          image: "assets/img/Suplementos/citrato-magnesio.jpg"
+          image: "assets/img/Suplementos/citrato_magnesio.jpeg"
         },
 
         {
           name: "Maca",
           desc: "Raíz andina energizante, tradicionalmente usada para vitalidad.",
-          image: "assets/img/Suplementos/maca.jpg"
+          image: "assets/img/Suplementos/maca.jpeg"
         },
 
-        {
+        /*{
           name: "Omega 3",
           desc: "Ácidos grasos esenciales para salud cardiovascular.",
           image: "assets/img/Suplementos/omega-3.jpg"
-        },
+        },*/
 
         {
-          name: "Aceite de coco",
+          name: "Colageno Hidrolizado",
           desc: "Uso interno y externo; propiedades antifúngicas naturales.",
-          image: "assets/img/Suplementos/aceite-coco.jpg"
+          image: "assets/img/Suplementos/colageno_hidrolizado.jpeg"
         },
 
-        {
+        /*{
           name: "Aceite de orégano",
           desc: "Apoyo natural frente a hongos y molestias intestinales.",
           image: "assets/img/Suplementos/aceite-oregano.jpg"
-        }
+        }*/
 
       ]
     },
