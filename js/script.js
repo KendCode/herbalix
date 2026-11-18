@@ -89,6 +89,11 @@
           desc: "Cera natural con aceites esenciales para ambientar cualquier espacio.",
           image: "../assets/img/Aromaterapia/velasPerfumadas.jpeg"
         },
+        {
+          name: "Velas Aromaticas",
+          desc: "Cera natural con aceites esenciales para ambientar cualquier espacio.",
+          image: "../assets/img/Aromaterapia/velasAromaticas.jpeg"
+        },
 
         {
           name: "Mini Difusores de aroma",
@@ -211,7 +216,7 @@
         {
           name: "Botiquín herbolario",
           desc: "Selección esencial de remedios naturales para el hogar.",
-          image: "assets/img/MedicinaTradicional/botiquin-herbolario.jpg"
+          image: "assets/img/MedicinaTradicional/botiquin.jpeg"
         }
 
       ]
@@ -235,7 +240,7 @@
         /*{
           name: "Jabones rituales",
           desc: "Barras artesanales asociadas a intenciones específicas.",
-          image: "assets/img/productos/jabones-rituales.jpg"
+          image: "assets/img/Esoterica/jabones_rituales.jpeg"
         },*/
 
         {
