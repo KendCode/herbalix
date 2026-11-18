@@ -44,7 +44,7 @@
         {
           name: "Jabones terapéuticos",
           desc: "Barras artesanales con plantas medicinales según necesidad de piel.",
-          image: "assets/img/CosmeticaNatural/Jabones.jpeg"
+          image: "assets/img/CosmeticaNatural/Jabones.webp"
         },
 
         {
@@ -104,7 +104,7 @@
         {
           name: "Aceites esenciales",
           desc: "Extractos puros para difusión, masajes o uso terapéutico.",
-          image: "assets/img/Aromaterapia/aceites.jpeg"
+          image: "assets/img/Aromaterapia/Aceites.webp"
         },
 
         {
