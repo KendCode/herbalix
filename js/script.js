@@ -44,7 +44,7 @@
         {
           name: "Jabones terapéuticos",
           desc: "Barras artesanales con plantas medicinales según necesidad de piel.",
-          image: "assets/img/CosmeticaNatural/Jabones.webp"
+          image: "assets/img/CosmeticaNatural/jabones.jpeg"
         },
 
         {
